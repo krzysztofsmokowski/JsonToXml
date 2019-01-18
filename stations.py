@@ -65,7 +65,6 @@ def main():
     stations_list = weather.stations()
     stations = XMLcreator(stations_list)
     stations._serialize()
-    stations.save('eldupa.xml')
 
 if __name__ == '__main__':
     main()
